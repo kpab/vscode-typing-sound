@@ -10,9 +10,11 @@ A VSCode extension that plays satisfying mechanical keyboard sounds while typing
 ### Features
 
 - Pleasant mechanical keyboard sounds during normal typing
-- Custom sound effects for special keys such as Enter, Tab, Space, and Backspace
+- Custom sound effects for special keys such as Enter, Tab, and Backspace
 - Volume adjustment
 - Anti-key-repeat protection (prevents sound flooding when holding down keys)
+- Status bar toggle (click the "Typing" item to mute/unmute)
+- Sounds are only played while you are actually typing — programmatic edits (formatters, Git, undo/redo, etc.) stay silent
 
 ### Settings
 
@@ -29,9 +31,9 @@ This extension supports the following settings:
 
 ### Supported Platforms
 
-- Windows
-- macOS
-- Linux (requires a Sound Player installation)
+- macOS (uses the built-in `afplay`)
+- Windows (uses PowerShell / Windows Media Player, no extra installation required)
+- Linux (requires one of: `mpg123`, `ffplay` (ffmpeg), or `play` (SoX))
 
 ### Installation
 
@@ -47,9 +49,11 @@ You can install this extension from the VSCode Extension Marketplace by searchin
 ### 機能
 
 - 通常のタイピング時に心地よいメカニカルキーボード音を再生
-- エンター、タブ、スペース、バックスペースなどの特殊キーに独自の効果音
+- エンター、タブ、バックスペースなどの特殊キーに独自の効果音
 - 音量調整機能
 - 長押し対策（キーリピート検出）
+- ステータスバーからワンクリックでオン/オフ切り替え
+- 実際のタイピング時のみ再生（フォーマッタ・Git・Undo/Redoなどの自動編集では鳴りません）
 
 ### 設定オプション
 
@@ -66,24 +70,26 @@ You can install this extension from the VSCode Extension Marketplace by searchin
 
 ### 対応プラットフォーム
 
-- Windows
-- macOS
-- Linux (要Sound Playerのインストール)
+- macOS（標準の `afplay` を使用）
+- Windows（PowerShell / Windows Media Playerを使用、追加インストール不要）
+- Linux（`mpg123`・`ffplay`（ffmpeg）・`play`（SoX）のいずれかが必要）
 
 ### インストール
 
 VSCodeの拡張機能マーケットプレイスから「VSCode Typing Sound」を検索してインストールできます。
 
-## Required Sound Files / 必要な音源ファイル
+## Bundled Sound Files / 同梱の音源ファイル
 
-Place the following MP3 files in the `media/sounds/` folder:  
-以下のMP3ファイルを `media/sounds/` フォルダに配置してください：
+The following MP3 files are bundled in the `media/sounds/` folder:  
+以下のMP3ファイルが `media/sounds/` フォルダに同梱されています：
 
 - `key-press.mp3` - Normal key typing sound / 通常のキー入力音
 - `enter.mp3` - Enter key sound effect / Enterキー用効果音
 - `tab.mp3` - Tab key sound effect / Tabキー用効果音
-- `space.mp3` - Space key sound effect / スペースキー用効果音
 - `backspace.mp3` - Backspace key sound effect / Backspaceキー用効果音
+
+Note: There is currently no dedicated sound for the Space key — it falls back to the normal key sound.  
+注: 現在スペースキー専用の音源は同梱されておらず、通常のキー入力音が再生されます。
 
 ## License / ライセンス
 
