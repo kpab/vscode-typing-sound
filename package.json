@@ -2,7 +2,7 @@
   "name": "vscode-typing-sound",
   "displayName": "VSCode Typing Sound",
   "description": "Add satisfying mechanical keyboard typing sounds to your coding experience",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.60.0"
   },
