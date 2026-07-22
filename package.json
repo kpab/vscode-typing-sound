@@ -1,8 +1,8 @@
 {
   "name": "vscode-typing-sound",
   "displayName": "VSCode Typing Sound",
-  "description": "Add satisfying mechanical keyboard typing sounds to your coding experience",
-  "version": "0.2.0",
+  "description": "Satisfying mechanical keyboard sounds while you type / タイピング時に心地よいメカニカルキーボード音を鳴らす拡張機能",
+  "version": "0.2.1",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -13,7 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kpab/vscode-typing-sound"
+    "url": "https://github.com/kpab/vscode-typing-sound.git"
+  },
+  "homepage": "https://github.com/kpab/vscode-typing-sound#readme",
+  "bugs": {
+    "url": "https://github.com/kpab/vscode-typing-sound/issues"
   },
   "icon": "media/icon.png",
   "galleryBanner": {
@@ -24,8 +28,11 @@
     "typing",
     "sound",
     "keyboard",
-    "mechanical",
-    "audio"
+    "mechanical keyboard",
+    "typewriter",
+    "sound effects",
+    "audio",
+    "タイピング音"
   ],
   "activationEvents": [
     "onStartupFinished"

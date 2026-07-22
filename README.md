@@ -1,5 +1,11 @@
 # VSCode Typing Sound
 
+[![Version](https://img.shields.io/visual-studio-marketplace/v/kpab.vscode-typing-sound)](https://marketplace.visualstudio.com/items?itemName=kpab.vscode-typing-sound)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/kpab.vscode-typing-sound)](https://marketplace.visualstudio.com/items?itemName=kpab.vscode-typing-sound)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kpab/vscode-typing-sound/blob/main/LICENSE)
+
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=kpab.vscode-typing-sound) | [GitHub](https://github.com/kpab/vscode-typing-sound) | [Issues](https://github.com/kpab/vscode-typing-sound/issues)
+
 [English](#english) | [日本語](#japanese)
 
 <a id="english"></a>
@@ -37,7 +43,11 @@ This extension supports the following settings:
 
 ### Installation
 
-You can install this extension from the VSCode Extension Marketplace by searching for "VSCode Typing Sound".
+Install from the [VSCode Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=kpab.vscode-typing-sound), or search for "VSCode Typing Sound" in the Extensions view.
+
+### Feedback
+
+Bug reports and feature requests are welcome on [GitHub Issues](https://github.com/kpab/vscode-typing-sound/issues).
 
 ---
 
@@ -76,7 +86,11 @@ You can install this extension from the VSCode Extension Marketplace by searchin
 
 ### インストール
 
-VSCodeの拡張機能マーケットプレイスから「VSCode Typing Sound」を検索してインストールできます。
+[VSCode拡張機能マーケットプレイス](https://marketplace.visualstudio.com/items?itemName=kpab.vscode-typing-sound)から、または拡張機能ビューで「VSCode Typing Sound」を検索してインストールできます。
+
+### フィードバック
+
+バグ報告・機能要望は [GitHub Issues](https://github.com/kpab/vscode-typing-sound/issues) までお気軽にどうぞ。
 
 ## Bundled Sound Files / 同梱の音源ファイル
 
